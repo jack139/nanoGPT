@@ -1,0 +1,22 @@
+# Python-created cache files
+**/__pycache__
+.ipynb_checkpoints/
+cache_*
+
+# Saved actor/critic networks from training
+*.pth
+*.pt
+
+# Plots, recorders, replay buffers
+*plot_*.jpg
+*recorder.npy
+*replay*.npz
+LearningCurve.jpg
+
+# Runs created by Isaac Gym
+runs/
+
+# temp data
+.~*
+*.bin
+*.pkl
